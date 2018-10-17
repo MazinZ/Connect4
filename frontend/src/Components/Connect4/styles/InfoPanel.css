@@ -1,0 +1,17 @@
+.info-card {
+  width: 320px;
+  height: 100px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #636363;
+  padding: 20px;
+  display: flex;
+}
+
+.info-container {
+  align-self: center;
+}
+
+.info-card .description {
+  color: #87D2FF;
+}
