@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "mazin",
+    "password": null,
+    "database": "trutask_dev",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "mazin",
+    "password": null,
+    "database": "trutask_test",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "mazin",
+    "password": null,
+    "database": "trutask_production",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
