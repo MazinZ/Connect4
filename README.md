@@ -25,6 +25,7 @@ http://ec2-52-40-222-76.us-west-2.compute.amazonaws.com/spectate/{ROOM_ID} where
 - Connect4Game model stores the following:
 
 Schema:
+
 | Field         | Type           | Info  |
 | ------------- |:-------------: | -----:|
 | id            | string         |
