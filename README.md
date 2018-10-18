@@ -23,19 +23,21 @@ http://ec2-52-40-222-76.us-west-2.compute.amazonaws.com/spectate/{ROOM_ID} where
 ### Storage
 - Games are stored in a RDS PostgreSQL instance.
 - Connect4Game model stores the following:
-  ```
-  id: Auto-incrementing id (int)
-  room_id: (string)
-  board: (array)(int) Flattened array representation of board. Use width and height to recover shape.
-  player_1: (string) Player 1 Session ID
-  player_2: (string) Player 2 Session ID
-  width: (int) Board width
-  height: (int) Board height
-  winner: (int) 1 or 2 indicating Player 1 or 2.
-  draw: (boolean) True or False, indicating if game ended in draw.
-  createdAt: (date)
-  updatedAt: (date)
-  ```
+
+Schema:
+| Field         | Type           | Info  |
+| ------------- |:-------------: | -----:|
+| id            | string         |
+| board      	| array(int)     | Flattened array representation of board. Use width and height to recover shape. |
+| player_1 	| string         | Player 1 Session ID |
+| player_2 	| string         | Player 2 Session ID |
+| width 	| int      	 | Board width |
+| height 	| int     	 | Board height |
+| winner 	| int      	 | 1 or 2 indicating Player 1 or 2. |
+| draw 		| boolean        | True or False, indicating if game ended in draw. |
+| createdAt 	| date           |  |
+| updatedAt 	| date           |  |
+
 - Game is only stored if at least 1 player joined the room.
 
 ## Improvements if I were to spend more time on it
