@@ -49,6 +49,9 @@ http://ec2-52-40-222-76.us-west-2.compute.amazonaws.com/spectate/{ROOM_ID} where
 - Refactor Connect4 & InfoPanel components.
 - Check that some values aren't being synced. I have not used Colyseus before so I would like to do more testing to ensure that clients cannot manipulate game state.
 
+## Local installation
+-- Todo
+
 ## NGINX config
 ```
 map $http_upgrade $type {
@@ -82,4 +85,20 @@ server {
 }
 ```
 
-## Local installation
+## Screenshots
+
+### One Player joined
+![1](https://i.imgur.com/bPDutm8.png)
+
+### Both players 
+![2](https://i.imgur.com/f5zME9a.png)
+
+### A Player disconnected
+￼![3](https://i.imgur.com/IqyNXo8.png)
+
+## Game ended in a draw
+![4](https://i.imgur.com/lpo7lsY.png)
+
+
+
+￼
