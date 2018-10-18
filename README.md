@@ -102,6 +102,7 @@ server {
 ## Game ended in a draw
 ![4](https://i.imgur.com/lpo7lsY.png)
 
-
+## DB entry
+![5](https://i.imgur.com/7vHnno2.png)
 
 ￼
