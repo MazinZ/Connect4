@@ -53,7 +53,22 @@ Schema:
 - Check that some values aren't being synced. I have not used Colyseus before so I would like to do more testing to ensure that clients cannot manipulate game state.
 
 ## Local installation
--- Todo
+git clone https://github.com/MazinZ/Connect4.git
+
+from the backend directory:
+```
+$ npm install
+$ npm install -g sequelize-cli
+$ sequelize db:migrate
+$ npm run start:dev
+```
+
+from the frontend directory:
+
+```
+$ npm install
+$ npm start
+```
 
 ## NGINX config
 ```
