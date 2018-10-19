@@ -59,9 +59,13 @@ from the backend directory:
 ```
 $ npm install
 $ npm install -g sequelize-cli
+$ brew install postgres
+$ pg_ctl -D /usr/local/var/postgres start
+$ sequelize db:create tru_task
 $ sequelize db:migrate
 $ npm run start:dev
 ```
+If there are any issues, you may need to upgrade your node version.
 
 from the frontend directory:
 
