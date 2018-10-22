@@ -51,6 +51,7 @@ Schema:
 - Possibly host static files in an S3 bucket.
 - Refactor Connect4 & InfoPanel components.
 - Check that some values aren't being synced. I have not used Colyseus before so I would like to do more testing to ensure that clients cannot manipulate game state.
+- Set up babel & env configurations on server.
 
 ## Local installation
 git clone https://github.com/MazinZ/Connect4.git
