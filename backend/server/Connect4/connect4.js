@@ -47,7 +47,8 @@ function Connect4Board(rows, cols) {
     backDiag();
 
     const win = paths.some((path) => { 
-      return path.join('').indexOf(condition) !== -1;
+      return path.join('').map(pos => +pos)
+        .indexOf(condition) !== -1;
     });
 
     return win;
