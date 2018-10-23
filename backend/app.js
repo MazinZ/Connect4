@@ -11,6 +11,6 @@ const gameServer = new colyseus.Server({ server });
 
 gameServer.register('connect4', room);
 app.set('port', port);
-server.listen(port);
+gameServer.listen(port);
 
 module.exports = app;

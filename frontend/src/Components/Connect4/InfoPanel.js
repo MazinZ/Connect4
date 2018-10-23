@@ -3,7 +3,6 @@ import './styles/InfoPanel.css';
 
 const InfoPanel = (props) => {
   const { data } = props;
-  console.log(data)
   const inactive = data.ended;
   return (
     <div className="info-card">
