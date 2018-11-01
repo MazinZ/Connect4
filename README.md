@@ -1,11 +1,5 @@
 # Connect4
 
-## Host
-
-Currently (10/17/2018) Hosted at http://ec2-52-40-222-76.us-west-2.compute.amazonaws.com
-
-Cost: AWS offers a 12 month free trial for specific types of EC2 and RDS instances. App hosted with NGINX to provide more scalability.
-
 ## Features
 
 ### Spectate
