@@ -1,5 +1,7 @@
 # Connect4
 
+App is no longer hosted at http://ec2-52-40-222-76.us-west-2.compute.amazonaws.com/
+
 ## Features
 
 ### Spectate
