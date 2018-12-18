@@ -59,11 +59,11 @@ class Connect4Room extends Room {
         const win = this.game.checkWin(valid, msg.col, symbol);
         const draw = this.game.checkDraw();
         if (win) {
-          this.broadcast({ draw: true });
-          this.draw = true;
-        } else if (draw) {
           this.broadcast({ win: symbol });
           this.win = symbol;
+        } else if (draw) {
+          this.broadcast({ draw: true });
+          this.draw = true;
         }
       }
     }
