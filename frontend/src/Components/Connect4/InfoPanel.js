@@ -16,7 +16,7 @@ const InfoPanel = (props) => {
              && <p className="description"> Your turn </p>
             }
             {!data.isTurn && data.active && data.start && !data.spectator
-             && <p className="description"> Other player's turn </p>
+             && <p className="description"> Other player&#39;s turn </p>
             }
             <br />
             <p> {data.spectators} Spectator(s) watching</p>
